@@ -1,0 +1,591 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/D:/anti%20flexi%20rit/backend/apache-maven-3.9.6/lib/jansi-2.4.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/D:/anti%20flexi%20rit/backend/apache-maven-3.9.6/lib/guava-32.0.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.example:timetable-backend >--------------------
+[INFO] Building timetable-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ timetable-backend ---
+[INFO] Deleting D:\anti flexi rit\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ timetable-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ timetable-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 38 source files with javac [debug release 17] to target\classes
+[INFO] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/security/JwtUtils.java: D:\anti flexi rit\backend\src\main\java\com\example\timetable\security\JwtUtils.java uses or overrides a deprecated API.
+[INFO] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/security/JwtUtils.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[38,18] cannot find symbol
+  symbol:   method setUsername(java.lang.String)
+  location: variable admin of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[39,18] cannot find symbol
+  symbol:   method setPassword(java.lang.String)
+  location: variable admin of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[40,18] cannot find symbol
+  symbol:   method setRole(com.example.timetable.model.Role)
+  location: variable admin of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[47,69] cannot find symbol
+  symbol:   method getUsername()
+  location: variable loginRequest of type com.example.timetable.dto.LoginRequest
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[47,97] cannot find symbol
+  symbol:   method getPassword()
+  location: variable loginRequest of type com.example.timetable.dto.LoginRequest
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[52,63] cannot find symbol
+  symbol:   method getUsername()
+  location: variable loginRequest of type com.example.timetable.dto.LoginRequest
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[57,21] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[56,21] cannot find symbol
+  symbol:   method getUsername()
+  location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[55,21] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[46,28] cannot find symbol
+  symbol:   method getName()
+  location: variable dto of type com.example.timetable.dto.SubjectDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[47,31] cannot find symbol
+  symbol:   method getCredits()
+  location: variable dto of type com.example.timetable.dto.SubjectDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[49,16] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[54,46] cannot find symbol
+  symbol:   method getUsername()
+  location: variable dto of type com.example.timetable.dto.FacultyDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[58,57] cannot find symbol
+  symbol:   method getSubjectId()
+  location: variable dto of type com.example.timetable.dto.FacultyDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[62,29] cannot find symbol
+  symbol:   method getUsername()
+  location: variable dto of type com.example.timetable.dto.FacultyDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[63,52] cannot find symbol
+  symbol:   method getPassword()
+  location: variable dto of type com.example.timetable.dto.FacultyDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[64,13] cannot find symbol
+  symbol:   method setRole(com.example.timetable.model.Role)
+  location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[68,28] cannot find symbol
+  symbol:   method getName()
+  location: variable dto of type com.example.timetable.dto.FacultyDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[69,16] cannot find symbol
+  symbol:   method setSubject(com.example.timetable.model.Subject)
+  location: variable faculty of type com.example.timetable.model.Faculty
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[70,35] cannot find symbol
+  symbol:   method getMaxCapacity()
+  location: variable dto of type com.example.timetable.dto.FacultyDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[71,16] cannot find symbol
+  symbol:   method setUser(com.example.timetable.model.User)
+  location: variable faculty of type com.example.timetable.model.Faculty
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[74,16] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[79,46] cannot find symbol
+  symbol:   method getUsername()
+  location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[84,29] cannot find symbol
+  symbol:   method getUsername()
+  location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[85,52] cannot find symbol
+  symbol:   method getPassword()
+  location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[86,13] cannot find symbol
+  symbol:   method setRole(com.example.timetable.model.Role)
+  location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[90,28] cannot find symbol
+  symbol:   method getName()
+  location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[91,34] cannot find symbol
+  symbol:   method getDepartment()
+  location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[92,32] cannot find symbol
+  symbol:   method getSemester()
+  location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[93,39] cannot find symbol
+  symbol:   method getRequiredCredits()
+  location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[94,16] cannot find symbol
+  symbol:   method setUser(com.example.timetable.model.User)
+  location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[97,16] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[102,16] cannot find symbol
+  symbol:   method getStartTime()
+  location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[102,67] cannot find symbol
+  symbol:   method getEndTime()
+  location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[106,57] cannot find symbol
+  symbol:   method getSubjectId()
+  location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[109,57] cannot find symbol
+  symbol:   method getFacultyId()
+  location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[112,21] cannot find symbol
+  symbol:   method getSubject()
+  location: variable faculty of type com.example.timetable.model.Faculty
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[112,57] cannot find symbol
+  symbol:   method getId()
+  location: variable subject of type com.example.timetable.model.Subject
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[117,13] cannot find symbol
+  symbol:   method setSubject(com.example.timetable.model.Subject)
+  location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[118,13] cannot find symbol
+  symbol:   method setFaculty(com.example.timetable.model.Faculty)
+  location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[119,30] cannot find symbol
+  symbol:   method getStartTime()
+  location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[120,28] cannot find symbol
+  symbol:   method getEndTime()
+  location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[121,31] cannot find symbol
+  symbol:   method getRoomNumber()
+  location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[122,29] cannot find symbol
+  symbol:   method getMaxSeats()
+  location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[123,35] cannot find symbol
+  symbol:   method getMaxSeats()
+  location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[127,16] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/FacultyService.java:[35,54] cannot find symbol
+  symbol:   method getId()
+  location: variable faculty of type com.example.timetable.model.Faculty
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/FacultyService.java:[43,18] cannot find symbol
+  symbol:   method getFaculty()
+  location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/FacultyService.java:[43,54] cannot find symbol
+  symbol:   method getId()
+  location: variable faculty of type com.example.timetable.model.Faculty
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[44,60] cannot find symbol
+  symbol:   method getId()
+  location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[53,68] cannot find symbol
+  symbol:   method getId()
+  location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[53,82] cannot find symbol
+  symbol:   method getId()
+  location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[58,91] cannot find symbol
+  symbol:   method getId()
+  location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[60,31] cannot find symbol
+  symbol:   method getStatus()
+  location: variable e of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[61,33] cannot find symbol
+  symbol:   method getSlot()
+  location: variable e of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[64,34] cannot find symbol
+  symbol:   method getSubject()
+  location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[64,70] cannot find symbol
+  symbol:   method getRequiredCredits()
+  location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[70,25] cannot find symbol
+  symbol:   method getStatus()
+  location: variable existing of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[71,50] cannot find symbol
+  symbol:   method getSlot()
+  location: variable existing of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[78,17] cannot find symbol
+  symbol:   method getAvailableSeats()
+  location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[79,40] cannot find symbol
+  symbol:   method getAvailableSeats()
+  location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[83,23] cannot find symbol
+  symbol:   method setStudent(com.example.timetable.model.Student)
+  location: variable enrollment of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[84,23] cannot find symbol
+  symbol:   method setSlot(com.example.timetable.model.Slot)
+  location: variable enrollment of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[85,23] cannot find symbol
+  symbol:   method setStatus(com.example.timetable.model.EnrollmentStatus)
+  location: variable enrollment of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[88,20] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[92,23] cannot find symbol
+  symbol:   method setStudent(com.example.timetable.model.Student)
+  location: variable enrollment of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[93,23] cannot find symbol
+  symbol:   method setSlot(com.example.timetable.model.Slot)
+  location: variable enrollment of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[94,23] cannot find symbol
+  symbol:   method setStatus(com.example.timetable.model.EnrollmentStatus)
+  location: variable enrollment of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[97,20] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[102,18] cannot find symbol
+  symbol:   method getStartTime()
+  location: variable s1 of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[102,45] cannot find symbol
+  symbol:   method getEndTime()
+  location: variable s2 of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[102,65] cannot find symbol
+  symbol:   method getEndTime()
+  location: variable s1 of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[102,89] cannot find symbol
+  symbol:   method getStartTime()
+  location: variable s2 of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/exception/GlobalExceptionHandler.java:[14,49] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/exception/GlobalExceptionHandler.java:[20,23] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/security/CustomUserDetailsService.java:[26,21] cannot find symbol
+  symbol:   method getUsername()
+  location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/security/CustomUserDetailsService.java:[27,21] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/security/CustomUserDetailsService.java:[28,74] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[20,16] cannot find symbol
+  symbol:   method setName(java.lang.String)
+  location: variable subject of type com.example.timetable.model.Subject
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[21,16] cannot find symbol
+  symbol:   method setCredits(int)
+  location: variable subject of type com.example.timetable.model.Subject
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[153,13] cannot find symbol
+  symbol:   method setUsername(java.lang.String)
+  location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[154,13] cannot find symbol
+  symbol:   method setPassword(java.lang.String)
+  location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[155,13] cannot find symbol
+  symbol:   method setRole(com.example.timetable.model.Role)
+  location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[159,16] cannot find symbol
+  symbol:   method setUser(com.example.timetable.model.User)
+  location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[160,16] cannot find symbol
+  symbol:   method setName(java.lang.String)
+  location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[161,16] cannot find symbol
+  symbol:   method setDepartment(java.lang.String)
+  location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[162,16] cannot find symbol
+  symbol:   method setSemester(int)
+  location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[163,16] cannot find symbol
+  symbol:   method setRequiredCredits(int)
+  location: variable student of type com.example.timetable.model.Student
+[INFO] 88 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.301 s
+[INFO] Finished at: 2026-03-21T15:13:54+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project timetable-backend: Compilation failure: Compilation failure: 
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[38,18] cannot find symbol
+[ERROR]   symbol:   method setUsername(java.lang.String)
+[ERROR]   location: variable admin of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[39,18] cannot find symbol
+[ERROR]   symbol:   method setPassword(java.lang.String)
+[ERROR]   location: variable admin of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[40,18] cannot find symbol
+[ERROR]   symbol:   method setRole(com.example.timetable.model.Role)
+[ERROR]   location: variable admin of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[47,69] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable loginRequest of type com.example.timetable.dto.LoginRequest
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[47,97] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable loginRequest of type com.example.timetable.dto.LoginRequest
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[52,63] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable loginRequest of type com.example.timetable.dto.LoginRequest
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[57,21] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[56,21] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AuthService.java:[55,21] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[46,28] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable dto of type com.example.timetable.dto.SubjectDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[47,31] cannot find symbol
+[ERROR]   symbol:   method getCredits()
+[ERROR]   location: variable dto of type com.example.timetable.dto.SubjectDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[49,16] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[54,46] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable dto of type com.example.timetable.dto.FacultyDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[58,57] cannot find symbol
+[ERROR]   symbol:   method getSubjectId()
+[ERROR]   location: variable dto of type com.example.timetable.dto.FacultyDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[62,29] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable dto of type com.example.timetable.dto.FacultyDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[63,52] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable dto of type com.example.timetable.dto.FacultyDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[64,13] cannot find symbol
+[ERROR]   symbol:   method setRole(com.example.timetable.model.Role)
+[ERROR]   location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[68,28] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable dto of type com.example.timetable.dto.FacultyDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[69,16] cannot find symbol
+[ERROR]   symbol:   method setSubject(com.example.timetable.model.Subject)
+[ERROR]   location: variable faculty of type com.example.timetable.model.Faculty
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[70,35] cannot find symbol
+[ERROR]   symbol:   method getMaxCapacity()
+[ERROR]   location: variable dto of type com.example.timetable.dto.FacultyDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[71,16] cannot find symbol
+[ERROR]   symbol:   method setUser(com.example.timetable.model.User)
+[ERROR]   location: variable faculty of type com.example.timetable.model.Faculty
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[74,16] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[79,46] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[84,29] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[85,52] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[86,13] cannot find symbol
+[ERROR]   symbol:   method setRole(com.example.timetable.model.Role)
+[ERROR]   location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[90,28] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[91,34] cannot find symbol
+[ERROR]   symbol:   method getDepartment()
+[ERROR]   location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[92,32] cannot find symbol
+[ERROR]   symbol:   method getSemester()
+[ERROR]   location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[93,39] cannot find symbol
+[ERROR]   symbol:   method getRequiredCredits()
+[ERROR]   location: variable dto of type com.example.timetable.dto.StudentDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[94,16] cannot find symbol
+[ERROR]   symbol:   method setUser(com.example.timetable.model.User)
+[ERROR]   location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[97,16] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[102,16] cannot find symbol
+[ERROR]   symbol:   method getStartTime()
+[ERROR]   location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[102,67] cannot find symbol
+[ERROR]   symbol:   method getEndTime()
+[ERROR]   location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[106,57] cannot find symbol
+[ERROR]   symbol:   method getSubjectId()
+[ERROR]   location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[109,57] cannot find symbol
+[ERROR]   symbol:   method getFacultyId()
+[ERROR]   location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[112,21] cannot find symbol
+[ERROR]   symbol:   method getSubject()
+[ERROR]   location: variable faculty of type com.example.timetable.model.Faculty
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[112,57] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable subject of type com.example.timetable.model.Subject
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[117,13] cannot find symbol
+[ERROR]   symbol:   method setSubject(com.example.timetable.model.Subject)
+[ERROR]   location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[118,13] cannot find symbol
+[ERROR]   symbol:   method setFaculty(com.example.timetable.model.Faculty)
+[ERROR]   location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[119,30] cannot find symbol
+[ERROR]   symbol:   method getStartTime()
+[ERROR]   location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[120,28] cannot find symbol
+[ERROR]   symbol:   method getEndTime()
+[ERROR]   location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[121,31] cannot find symbol
+[ERROR]   symbol:   method getRoomNumber()
+[ERROR]   location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[122,29] cannot find symbol
+[ERROR]   symbol:   method getMaxSeats()
+[ERROR]   location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[123,35] cannot find symbol
+[ERROR]   symbol:   method getMaxSeats()
+[ERROR]   location: variable dto of type com.example.timetable.dto.SlotDTO
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/AdminService.java:[127,16] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/FacultyService.java:[35,54] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable faculty of type com.example.timetable.model.Faculty
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/FacultyService.java:[43,18] cannot find symbol
+[ERROR]   symbol:   method getFaculty()
+[ERROR]   location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/FacultyService.java:[43,54] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable faculty of type com.example.timetable.model.Faculty
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[44,60] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[53,68] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[53,82] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[58,91] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[60,31] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable e of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[61,33] cannot find symbol
+[ERROR]   symbol:   method getSlot()
+[ERROR]   location: variable e of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[64,34] cannot find symbol
+[ERROR]   symbol:   method getSubject()
+[ERROR]   location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[64,70] cannot find symbol
+[ERROR]   symbol:   method getRequiredCredits()
+[ERROR]   location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[70,25] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable existing of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[71,50] cannot find symbol
+[ERROR]   symbol:   method getSlot()
+[ERROR]   location: variable existing of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[78,17] cannot find symbol
+[ERROR]   symbol:   method getAvailableSeats()
+[ERROR]   location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[79,40] cannot find symbol
+[ERROR]   symbol:   method getAvailableSeats()
+[ERROR]   location: variable slot of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[83,23] cannot find symbol
+[ERROR]   symbol:   method setStudent(com.example.timetable.model.Student)
+[ERROR]   location: variable enrollment of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[84,23] cannot find symbol
+[ERROR]   symbol:   method setSlot(com.example.timetable.model.Slot)
+[ERROR]   location: variable enrollment of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[85,23] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.example.timetable.model.EnrollmentStatus)
+[ERROR]   location: variable enrollment of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[88,20] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[92,23] cannot find symbol
+[ERROR]   symbol:   method setStudent(com.example.timetable.model.Student)
+[ERROR]   location: variable enrollment of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[93,23] cannot find symbol
+[ERROR]   symbol:   method setSlot(com.example.timetable.model.Slot)
+[ERROR]   location: variable enrollment of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[94,23] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.example.timetable.model.EnrollmentStatus)
+[ERROR]   location: variable enrollment of type com.example.timetable.model.Enrollment
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[97,20] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[102,18] cannot find symbol
+[ERROR]   symbol:   method getStartTime()
+[ERROR]   location: variable s1 of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[102,45] cannot find symbol
+[ERROR]   symbol:   method getEndTime()
+[ERROR]   location: variable s2 of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[102,65] cannot find symbol
+[ERROR]   symbol:   method getEndTime()
+[ERROR]   location: variable s1 of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/service/StudentService.java:[102,89] cannot find symbol
+[ERROR]   symbol:   method getStartTime()
+[ERROR]   location: variable s2 of type com.example.timetable.model.Slot
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/exception/GlobalExceptionHandler.java:[14,49] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/exception/GlobalExceptionHandler.java:[20,23] constructor MessageResponse in class com.example.timetable.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/security/CustomUserDetailsService.java:[26,21] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/security/CustomUserDetailsService.java:[27,21] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/security/CustomUserDetailsService.java:[28,74] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[20,16] cannot find symbol
+[ERROR]   symbol:   method setName(java.lang.String)
+[ERROR]   location: variable subject of type com.example.timetable.model.Subject
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[21,16] cannot find symbol
+[ERROR]   symbol:   method setCredits(int)
+[ERROR]   location: variable subject of type com.example.timetable.model.Subject
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[153,13] cannot find symbol
+[ERROR]   symbol:   method setUsername(java.lang.String)
+[ERROR]   location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[154,13] cannot find symbol
+[ERROR]   symbol:   method setPassword(java.lang.String)
+[ERROR]   location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[155,13] cannot find symbol
+[ERROR]   symbol:   method setRole(com.example.timetable.model.Role)
+[ERROR]   location: variable user of type com.example.timetable.model.User
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[159,16] cannot find symbol
+[ERROR]   symbol:   method setUser(com.example.timetable.model.User)
+[ERROR]   location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[160,16] cannot find symbol
+[ERROR]   symbol:   method setName(java.lang.String)
+[ERROR]   location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[161,16] cannot find symbol
+[ERROR]   symbol:   method setDepartment(java.lang.String)
+[ERROR]   location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[162,16] cannot find symbol
+[ERROR]   symbol:   method setSemester(int)
+[ERROR]   location: variable student of type com.example.timetable.model.Student
+[ERROR] /D:/anti flexi rit/backend/src/main/java/com/example/timetable/config/DataSeeder.java:[163,16] cannot find symbol
+[ERROR]   symbol:   method setRequiredCredits(int)
+[ERROR]   location: variable student of type com.example.timetable.model.Student
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
